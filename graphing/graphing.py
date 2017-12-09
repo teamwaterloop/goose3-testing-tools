@@ -25,7 +25,7 @@ def graph(data, outputFolder):
         plotly.offline.plot({
             "data": [Scatter(x=xData, y=data[function])],
             "layout": Layout(title="Sensor Data for " + function),
-        }, filename=outputFolder + function + ".html")
+        }, filename=outputFolder + function + ".html", image="png", image_filename=function)
 
 
 fileName = raw_input("Input file (including path and extension): ")
