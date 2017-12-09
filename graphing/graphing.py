@@ -1,9 +1,10 @@
 '''
 @file graphing.py
-@brief Graphs sensor data for various functions from input file
+@brief Graphs sensor data for various functions from input file using plotly.
 
 @author Ibrahim Irfan
 @date December 9, 2017
+@bugs No known bugs.
 '''
 
 import os
