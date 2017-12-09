@@ -50,6 +50,7 @@ with open(fileName, 'rb') as fileIn:
 
     # end of file
     else: 
+        print data
         # get output folder from user and error check
         outputFolder = raw_input("Done reading file. Output folder (empty for current directory): ")
         if outputFolder != '':

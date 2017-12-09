@@ -1,2 +1,3 @@
 battery48Power, 10, 5, 8, 3, 5, 4, 4, 2, 9, 5, 4
 battery48TempSensor, 10, 55, 3, 4, 5, 6, 2, 43, 53, 5, 12
+battery48Power, 2, 105, 104
